@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/go-kit/kit/log"
+	"github.com/go-kit/log"
 )
 
 var RepoErr = errors.New("Unable to handle Repo Request")
